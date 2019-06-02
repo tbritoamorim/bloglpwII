@@ -1,0 +1,40 @@
+body {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    background-color: #F2C901;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+    background-image: url('https://supermariomaker.nintendo.com/assets/img/logos/logo-a.png');
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+article:nth-child(even) {
+    text-align: center;
+    border: 2px dashed black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #E60012;
+    background-image: url('https://supermariomaker.nintendo.com/assets/img/common/char-mario-luigi-goombas.png');
+    background-position: 2%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+article:nth-child(odd) {
+    text-align: center;
+    border: 2px dashed black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #148615;
+    background-image: url('https://supermariomaker.nintendo.com/assets/img/common/char-toad-toadette.png');
+    background-position: 98%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.data {
+    font-size: 12px;
+}
+h2 {
+    font-size: 25px;
+}
