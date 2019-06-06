@@ -14,6 +14,30 @@ class PostsTableSeeder extends Seeder
     {
         DB::table('posts')->insert([
             [
+                'title' => '23',
+                'slug' => '23-dias',
+                'draft' => 0,
+                'body' => "Faltam 23 dias.",
+                'days_left' => 23,
+                'created_at' => '2019-06-05 22:21:00'
+            ],
+            [
+                'title' => '24',
+                'slug' => '24-dias',
+                'draft' => 0,
+                'body' => "Faltam 24 dias.",
+                'days_left' => 24,
+                'created_at' => '2019-06-04 22:12:00'
+            ],
+            [
+                'title' => '25',
+                'slug' => '25-dias',
+                'draft' => 0,
+                'body' => "Faltam 25 dias.",
+                'days_left' => 25,
+                'created_at' => '2019-06-03 09:45:00'
+            ],
+            [
                 'title' => '26',
                 'slug' => '26-dias',
                 'draft' => 0,
